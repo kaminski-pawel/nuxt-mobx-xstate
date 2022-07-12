@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-mobx-xstate",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.3.0",
+    "axios": "0.19.0",
+    "eventemitter3": "4.0.0",
+    "mobx": "4.15.1",
+    "nuxt": "^2.5.1",
+    "ramda": "0.26.1",
+    "reqlim": "^0.0.0",
+    "uuid": "3.3.3",
+    "xstate": "4.7.3"
+  },
+  "keywords": []
+}
